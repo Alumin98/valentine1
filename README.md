@@ -1,25 +1,11 @@
 # 💝 Valentine's Day Website 2026 💝
 
-[![Stars](https://img.shields.io/github/stars/End2EndAI/valentine-website-2025?style=social)](https://github.com/End2EndAI/valentine-website-2025/stargazers)
-[![Fork](https://img.shields.io/github/forks/End2EndAI/valentine-website-2025?style=social)](https://github.com/End2EndAI/valentine-website-2025/fork)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FEnd2EndAI%2Fvalentine-website-2025)](https://twitter.com/intent/tweet?text=%F0%9F%92%9D%20Create%20your%20own%20Valentine%27s%20website%20for%20free%21%20No%20coding%20required%21%0A%F0%9F%8E%81%20Fully%20customizable%2C%20easy%20to%20deploy%20with%20your%20own%20website%20name%0A%E2%9C%A8%20Try%20it%20now%3A%20https%3A%2F%2Fgithub.com%2FEnd2EndAI%2Fvalentine-website-2025%0A%23ValentinesDay2025%20%23WebDev%20%23GitHub%20%23Love)
-
 A beautiful, interactive Valentine's Day website generator to ask your special someone to be your Valentine! Create your own personalized version in minutes. Perfect for Valentine's Day 2026! 💝
-Follow below the tutorial how to custom the website and get your custom URL and access your website on the internet from everywhere !
 
-🌟 **[Live Demo](https://end2endai.github.io/valentine-website-2025)** | 🚀 **[Quick Start](#-quick-start-guide)** | 🌐 **[Deploy Your Website](#4-make-it-live-get-your-online-website-url)**
-
-## 🌟 Share The Love
-
-If you liked it, please :
-- ⭐ Star this repository if you like it
-- 🔄 Fork it to create your own version
-- 🔥 Like and follow on instagram for more websites : [Instagram]([https://www.instagram.com/ai_cute_apps/](https://www.instagram.com/reel/DFh3ZaxtrYX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==))
+🚀 **[Quick Start](#-quick-start-guide)** | 🌐 **[Deploy Your Website](#4-make-it-live-get-your-online-website-url)**
 
 ## ✨ Features
 - 💖 Floating hearts and bears
-- 🎵 Custom music
 - 📏 Love meter that goes beyond 100%
 - 🏃‍♂️ Playful buttons that run away
 - 🎁 Hidden answer for the first question, "Do you like me?"
@@ -105,55 +91,8 @@ animations: {
     heartExplosionSize: 1.5         // Final heart explosion size (1.2-2.0)
 }
 
-// Music Settings
-music: {
-    enabled: true, // Music feature is enabled
-    autoplay: true, // Try to autoplay (note: some browsers may block this)
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your music URL here
-    startText: "🎵 Play Music", // Button text to start music
-    stopText: "🔇 Stop Music", // Button text to stop music
-    volume: 0.5 // Volume level (0.0 to 1.0)
-}
 ```
-
-### 3. Adding Your Own Background Music 🎵
-
-Want to make it extra special with your own romantic song? Follow these steps to add background music:
-
-1. **Get a Cloudinary Account (Free):**
-   - Go to [Cloudinary.com](https://cloudinary.com) and sign up for a free account
-
-2. **Upload Your Music:**
-   - Log in to your Cloudinary dashboard
-   - Click on the "Upload" button in the top right
-   - Select "Upload" from the dropdown menu
-   - Choose your MP3 file (keep it under 10MB for better loading)
-   - Wait for the upload to complete
-
-3. **Get Your Music URL:**
-   - After upload, find your music file in the Media Library
-   - Click the "..." (more options) button on your music file
-   - Click "Copy URL"
-   - Select "Copy Original URL with options"
-   - The URL should look like: `https://res.cloudinary.com/your-cloud-name/video/upload/v1234567890/your-file-name.mp3`
-
-4. **Add to Your Website:**
-   - Open `config.js`
-   - Find the `music` section
-   - Replace the `musicUrl` value with your Cloudinary URL
-
-```javascript
-music: {
-    enabled: true,
-    autoplay: true,
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your URL here
-    startText: "🎵 Play Music",
-    stopText: "🔇 Stop Music",
-    volume: 0.5
-}
-```
-
-### 4. Make It Live! (Get your online website URL)
+### 3. Make It Live! (Get your online website URL)
 
 #### Using GitHub Pages (Free)
 1. Go to your repository's "Settings"
@@ -186,12 +125,3 @@ Use these tools to find beautiful colors:
 Find more emojis at:
 - [EmojiKeyboard](https://emojikeyboard.top/fr/)
 - [Emojipedia](https://emojipedia.org/)
-
-## 💖 Credits
-Created with love for Valentine's Day 2026.
-Feel free to use and modify for your special someone!
-
-\- Louis Fontaine -
-
-## 📜 License
-MIT License - Feel free to use this for your Valentine! 

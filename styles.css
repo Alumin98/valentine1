@@ -1,13 +1,10 @@
-/* CSS Variables - Will be updated by JavaScript */
 :root {
-    /* Colors */
     --background-color-1: #ffafbd;
     --background-color-2: #ffc3a0;
     --button-color: #ff6b6b;
     --button-hover: #ff8787;
     --text-color: #ff4757;
 
-    /* Animations */
     --float-duration: 15s;
     --float-distance: 50px;
     --bounce-speed: 0.5s;
@@ -146,7 +143,6 @@ body {
     box-shadow: 0 6px 20px rgba(255, 107, 107, 0.3);
 }
 
-/* Ensure track is visible */
 .slider::-webkit-slider-runnable-track,
 .slider::-moz-range-track {
     width: 100%;
@@ -156,7 +152,6 @@ body {
     border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
-/* Ensure thumb is properly styled */
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 35px;
@@ -292,27 +287,3 @@ h2 {
     0% { opacity: 0.2; }
     100% { opacity: 0.3; }
 }
-
-.music-controls {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-}
-
-.music-btn {
-    background: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-.music-btn:hover {
-    transform: scale(1.05);
-    background: var(--secondary-color);
-} 
